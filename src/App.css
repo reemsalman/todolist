@@ -1,0 +1,29 @@
+
+body{
+  background-color: rgb(17, 2, 31);
+}
+
+
+.di{margin-top: 130px;}
+input,select{width: 80%;border-radius: 5px;height: 30px;border: none; }
+button{margin-top: 7px;border: none ;width: 30%;margin-bottom: 20px;
+border-radius: 5px;height: 30px}
+input {margin-top: 7px;}
+hr{width: 80%}
+#modal{
+position: absolute;
+width: 100vw;
+height: 100vh;
+background-color: black;
+opacity: 0.8;
+
+
+display: flex;justify-content: center;align-items: center;
+}
+#modalco{
+  background-color: aliceblue;
+  width: 90%;
+  z-index: +1;
+  
+}
+.dis{background-color: gray !important;}
